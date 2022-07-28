@@ -8,13 +8,13 @@ import * as styles from "../components/index.module.css"
 
 const links = [
   {
-    text: "Tutorial",
+    text: "Getting started with Snowplow",
     url: "https://www.gatsbyjs.com/docs/tutorial",
     description:
       "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
   },
   {
-    text: "Examples",
+    text: "Documentation",
     url: "https://github.com/gatsbyjs/gatsby/tree/master/examples",
     description:
       "A collection of websites ranging from very basic to complex/complete that illustrate how to accomplish specific tasks within your Gatsby sites.",
@@ -74,7 +74,7 @@ const IndexPage = () => (
     <Seo title="Home" />
     <div className={styles.textCenter}>
       <StaticImage
-        src="../images/example.png"
+        src="../images/white-1.png"
         loading="eager"
         width={64}
         quality={95}
@@ -83,7 +83,7 @@ const IndexPage = () => (
         style={{ marginBottom: `var(--space-3)` }}
       />
       <h1>
-        Welcome to <b>Gatsby!</b>
+        Welcome to <b>Gatsby POC page!</b>
       </h1>
       <p className={styles.intro}>
         <b>Example pages:</b>{" "}
